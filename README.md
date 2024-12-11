@@ -32,7 +32,7 @@
     systemctl start docker
     ```
 5. **设置开机自启动**
-```bash
+    ```bash
     systemctl enable containerd
     systemctl enable docker
     systemctl enable docker.socket
@@ -46,7 +46,7 @@
     chmod +x /usr/bin/docker-compose
     ```
 
-4. **验证安装**
+4. **验证Docker Compose 的安装**
     ```bash
     docker-compose -v
     ```
